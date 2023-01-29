@@ -18,7 +18,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 import java.util.Random;
+import java.util.ResourceBundle;
 
 
 @RequiredArgsConstructor
@@ -73,8 +75,10 @@ public class GameServiceImpl implements GameService {
                 {"Computer", "Draw", "Player"},
                 {"Player", "Computer", "Draw"}};
         String output = resultGame[cIndex][pIndex];
-        life_cycle.info("Winner is : " + output);
-        save.info("Round winner is : " + output);
+        life_cycle.info(textLocalizer(StartGame.currentLocale, "Round winner is") + ": " +
+                textLocalizer(StartGame.currentLocale, output));
+        save.info(textLocalizer(StartGame.currentLocale, "Round winner is") + ": " +
+                textLocalizer(StartGame.currentLocale, output));
         increaseScore(game, output);
         return output;
     }
@@ -95,11 +99,19 @@ public class GameServiceImpl implements GameService {
 
     @Override
     public String showResult(Game game) {
-        return String.format("Player : %s win %s games and lose %s games from %s total games.",
-                game.getPlayer().getName(),
-                game.getPlayer().getNumberOfWinGames(),
-                game.getPlayer().getNumberOfLose(),
-                game.getPlayer().getNumberOfGames());
+        return String.format(textLocalizer(StartGame.currentLocale, "Player") + ": " +
+                game.getPlayer().getName() + " " + textLocalizer(StartGame.currentLocale, "won") + " " +
+                game.getPlayer().getNumberOfWinGames() + " " +
+                textLocalizer(StartGame.currentLocale, "games and lose") + " " +
+                game.getPlayer().getNumberOfLose() + " " + textLocalizer(StartGame.currentLocale, "games from") +
+                " " + game.getPlayer().getNumberOfGames() + " " +
+                textLocalizer(StartGame.currentLocale, "total games"));
+
+//        return String.format("Player : %s win %s games and lose %s games from %s total games.",
+//                game.getPlayer().getName(),
+//                game.getPlayer().getNumberOfWinGames(),
+//                game.getPlayer().getNumberOfLose(),
+//                game.getPlayer().getNumberOfGames());
     }
 
     @SneakyThrows
@@ -109,7 +121,6 @@ public class GameServiceImpl implements GameService {
         String fileName = "result_" + game.getPlayer().getName() + "_" +
                 new SimpleDateFormat("yyyyMMdd_HHmm").format(new Date()) + ".txt";
         File f = new File(jarPath, File.separator.concat(fileName));
-
         if(!f.exists()){
             try {
                 f.createNewFile();
@@ -127,4 +138,12 @@ public class GameServiceImpl implements GameService {
         }
 
     }
+
+    @Override
+    public String textLocalizer(Locale currentLocale, String text) {
+        ResourceBundle resourceBundle = ResourceBundle.getBundle("text_local", StartGame.currentLocale);
+        return resourceBundle.getString(text);
+    }
+
+
 }

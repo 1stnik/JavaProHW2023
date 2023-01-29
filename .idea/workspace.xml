@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc219101-69ad-4528-8925-a6dfd2906599" name="Changes" comment="Add HomeWork 20">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/StartGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/dto/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/dto/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/dto/HandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/dto/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/test/java/com/hillel/rockPaperScissors/service/impl/GameServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="bc219101-69ad-4528-8925-a6dfd2906599" name="Changes" comment="Add HomeWork21_Logger">
+      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/TranslateMeInGermanPlease.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/text_local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/text_local_de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/text_local_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result_Sergii(DE)_20230129_2126.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result_Serhii(EN)_20230129_2125.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result_Сергій(UA)_20230129_2127.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/StartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_Serhii_20230127_2316.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +43,15 @@
     </option>
   </component>
   <component name="ProjectId" id="2KjL5gxX0mIdqPoNJKzClk3XVBN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -59,15 +60,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Hillel/Projects/JavaProHW2023/HomeWork21_Logger/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Hillel/Projects/JavaProHW2023/HomeWork22_Local&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.38965517&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -78,10 +80,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local" />
+      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local\src\test\java" />
+      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local\src\main\java" />
+      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local\src\main\resources" />
       <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork21_Logger\src\main\resources" />
-      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork21_Logger" />
-      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork21_Logger\src\test\java" />
-      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork21_Logger\src\main\java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.StartGame">
@@ -145,7 +148,17 @@
       <workItem from="1674482864565" duration="1547000" />
       <workItem from="1674644370981" duration="7982000" />
       <workItem from="1674725890834" duration="9797000" />
-      <workItem from="1674753015025" duration="4946000" />
+      <workItem from="1674753015025" duration="6163000" />
+      <workItem from="1674922819373" duration="2888000" />
+      <workItem from="1674939266766" duration="4128000" />
+      <workItem from="1674945850892" duration="916000" />
+      <workItem from="1674946901003" duration="1158000" />
+      <workItem from="1674984125082" duration="571000" />
+      <workItem from="1674984749642" duration="294000" />
+      <workItem from="1674985072338" duration="2663000" />
+      <workItem from="1674987760358" duration="1665000" />
+      <workItem from="1674990011001" duration="962000" />
+      <workItem from="1674990997157" duration="11816000" />
     </task>
     <task id="LOCAL-00001" summary="Add HomeWork 20">
       <created>1674483748359</created>
@@ -154,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674483748359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add HomeWork21_Logger">
+      <created>1674854511702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674854511702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +184,13 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add HomeWork 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HomeWork 20" />
+    <MESSAGE value="Add HomeWork21_Logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HomeWork21_Logger" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

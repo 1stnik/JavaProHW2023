@@ -4,6 +4,8 @@ import com.hillel.rockPaperScissors.dto.Game;
 import com.hillel.rockPaperScissors.dto.HandType;
 import com.hillel.rockPaperScissors.dto.Player;
 
+import java.util.Locale;
+
 public interface GameService {
 
     Game startGame(Player player);
@@ -21,5 +23,7 @@ public interface GameService {
     String showResult(Game game);
 
     void fileCreator(Game game, String output);
+
+    String textLocalizer(Locale currentLocale, String text);
 
 }

@@ -60,15 +60,9 @@
         </encoder>
     </appender>
 
-
     <logger name="logger" level="INFO">
         <appender-ref ref="result_log"/>
     </logger>
-
-<!--    <logger name="life_cycle" level="INFO">-->
-<!--        <appender-ref ref="life_cycle_log"/>-->
-<!--    </logger>-->
-
 
     <logger name="stdout" level="INFO">
         <appender-ref ref="STDOUT" />
