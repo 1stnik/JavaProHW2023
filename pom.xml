@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>HomeWork21_Logger</module>
+        <module>HomeWork24_Hibernate</module>
     </modules>
 
     <properties>
