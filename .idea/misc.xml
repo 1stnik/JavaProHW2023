@@ -8,10 +8,14 @@
         <option value="$PROJECT_DIR$/HomeWork24_JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/HomeWork20_JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/HomeWork21_Logger/pom.xml" />
+        <option value="$PROJECT_DIR$/HomeWork25_SpringBootRestAPI/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
