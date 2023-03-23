@@ -4,20 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc219101-69ad-4528-8925-a6dfd2906599" name="Changes" comment="Add HomeWork21_Logger">
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/TranslateMeInGermanPlease.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/text_local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/text_local_de.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/resources/text_local_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_Sergii(DE)_20230129_2126.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_Serhii(EN)_20230129_2125.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/result_Сергій(UA)_20230129_2127.txt" afterDir="false" />
+    <list default="true" id="bc219101-69ad-4528-8925-a6dfd2906599" name="Changes" comment="Delete HW27 submodule">
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/SalaryBonusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/controller/BonusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/entity/Bonus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/repository/BonusRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/BonusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/impl/BonusServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/test/java/com/hillel/bonus/HomeWork27SalaryBonusApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/StartGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/src/main/java/com/hillel/rockPaperScissors/service/impl/GameServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork21_Logger/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork21_Logger/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_Serhii_20230127_2316.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +35,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HomeWork27_SalaryBonus" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,45 +59,53 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Hillel/Projects/JavaProHW2023/HomeWork22_Local&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.38965517&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "D:/Hillel/Projects/JavaProHW2023/HomeWork27_SalaryBonus",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.38965517",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "d886dc408d44e6e9f09d3e4ba9079f18",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork27_SalaryBonus" />
+      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork27_SalaryBonus\src\main\resources" />
+      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork27_SalaryBonus\src\main\java\com\hillel\bonus" />
       <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local" />
       <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local\src\test\java" />
-      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local\src\main\java" />
-      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork22_Local\src\main\resources" />
-      <recent name="D:\Hillel\Projects\JavaProHW2023\HomeWork21_Logger\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartGame">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SalaryBonusApplication">
     <configuration name="MainJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MainJDBC" />
       <module name="HomeWork20_JDBC" />
@@ -129,6 +147,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBootRestAPI" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hillel.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork27SalaryBonusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HomeWork27_SalaryBonus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hillel.bonus.HomeWork27SalaryBonusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalaryBonusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HomeWork27_SalaryBonus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hillel.bonus.SalaryBonusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StartGame" />
@@ -159,6 +198,7 @@
       <workItem from="1674987760358" duration="1665000" />
       <workItem from="1674990011001" duration="962000" />
       <workItem from="1674990997157" duration="11816000" />
+      <workItem from="1679577423597" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="Add HomeWork 20">
       <created>1674483748359</created>
@@ -174,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674854511702</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Delete HW27 submodule">
+      <created>1679577504445</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679577504445</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +234,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add HomeWork 20" />
     <MESSAGE value="Add HomeWork21_Logger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HomeWork21_Logger" />
+    <MESSAGE value="Delete HW27 submodule" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete HW27 submodule" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
