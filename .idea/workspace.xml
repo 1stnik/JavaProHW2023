@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc219101-69ad-4528-8925-a6dfd2906599" name="Changes" comment="Delete HW27 submodule">
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/SalaryBonusApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/controller/BonusController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/entity/Bonus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/repository/BonusRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/repository/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/BonusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/impl/BonusServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/java/com/hillel/bonus/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork27_SalaryBonus/src/test/java/com/hillel/bonus/HomeWork27SalaryBonusApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bc219101-69ad-4528-8925-a6dfd2906599" name="Changes" comment="Add HW27">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +13,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/HomeWork27_SalaryBonus" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,6 +68,11 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ],
     "DatabaseDriversLRU": [
       "mysql"
     ]
@@ -154,13 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork27SalaryBonusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="HomeWork27_SalaryBonus" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hillel.bonus.HomeWork27SalaryBonusApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SalaryBonusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="HomeWork27_SalaryBonus" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hillel.bonus.SalaryBonusApplication" />
@@ -198,7 +180,7 @@
       <workItem from="1674987760358" duration="1665000" />
       <workItem from="1674990011001" duration="962000" />
       <workItem from="1674990997157" duration="11816000" />
-      <workItem from="1679577423597" duration="1124000" />
+      <workItem from="1679577423597" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="Add HomeWork 20">
       <created>1674483748359</created>
@@ -221,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679577504445</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add HW27">
+      <created>1679578607114</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679578607114</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +224,8 @@
     <MESSAGE value="Add HomeWork 20" />
     <MESSAGE value="Add HomeWork21_Logger" />
     <MESSAGE value="Delete HW27 submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete HW27 submodule" />
+    <MESSAGE value="Add HW27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HW27" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
